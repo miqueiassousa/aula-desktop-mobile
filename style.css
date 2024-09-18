@@ -1,0 +1,77 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: aqua;
+    margin: 0;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+li {
+    display:inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* As pseudo-classes no CSS são palavras-chave adicionadas a seletores 
+que especificam um estado especial do elemento selecionado */
+a:hover {
+    text-decoration:underline;
+    
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.bloco {
+    /* height: 100px; */
+    width:100px;
+    background-color: rgb(24, 148, 88);
+    margin: 2px;
+}
+
+.msg-desktop, .msg-mobile {
+    font-size: 20px;
+}
+
+.msg-mobile {
+    display: block;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
